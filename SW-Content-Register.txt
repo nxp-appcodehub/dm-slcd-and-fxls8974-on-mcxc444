@@ -1,0 +1,9 @@
+Package:              dm-slcd-and-fxls8974-on-mcxc444
+Version:              1.0
+Outgoing License:     BSD-3 Clause
+License File:         License.txt
+Description:          This demo uses the on board FXL8974 3-axis Low G accelerometer to obtain real time acceleration data, the on board RGB LED to indicate 
+                      the orientation, and the SLCD interface to print out the y acceleration data.
+Release Location:     https://github.com/nxp-appcodehub/dm-slcd-and-fxls8974-on-mcxc444
+Origin:               NXP (BSD-3-Clause)
+                      ARM CMSIS v5.9.0 (Apache-2.0)  - https://github.com/ARM-software/CMSIS_5/releases/tag/5.9.0

@@ -1,0 +1,24 @@
+<data:item xmlns:data="data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="data ../../xsd/alp.xsd" type="demo" format="projectfile" versionSchema="1.0.0" name="SLCD and FXLS8974 Accelerometer Demo on MCXC444" uuid="cae0300c-6715-4099-b564-86b4eada335b">
+    <display_title>
+        SLCD and FXLS8974 Accelerometer Demo on MCXC444
+    </display_title>
+    <overview>
+        <![CDATA[This demo uses the on board FXL8974 3-axis Low G accelerometer to obtain real time acceleration data, the on board RGB LED to indicate the orientation, and the SLCD interface to print out the y acceleration data.]]>
+    </overview>
+    <toolchains>
+        <toolchain name="mcux"></toolchain>
+    </toolchains>
+    <families>
+        <family name="mcx"></family>
+    </families>
+    <nxp_compatible_hw>
+        <hw id="FRDM-MCXC444"></hw>
+    </nxp_compatible_hw>
+    <peripherals>
+        <peripheral name="i2c"></peripheral>
+    </peripherals>
+    <categories>
+        <category name="hmi"></category>
+        <category name="sensor"></category>
+    </categories>
+</data:item>
